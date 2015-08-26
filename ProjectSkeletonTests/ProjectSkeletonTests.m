@@ -1,10 +1,3 @@
-//
-//  ProjectSkeletonTests.m
-//  ProjectSkeletonTests
-//
-//  Created by zhangshengyu on 15/7/31.
-//  Copyright (c) 2015年 zhangshengyu. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>

@@ -1,13 +1,7 @@
-//
-//  AppDelegate.m
-//  ProjectSkeleton
-//
-//  Created by zhangshengyu on 15/7/31.
-//  Copyright (c) 2015年 zhangshengyu. All rights reserved.
-//
+
 
 #import "AppDelegate.h"
-
+#import "ToolbarControll.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +10,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    ToolbarControll *mainview=[[ToolbarControll alloc] init];
+    self.window.rootViewController = mainview;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
